@@ -24,15 +24,6 @@ ports:
     visibility: private
     onOpen: ignore
 
-github:
-  prebuilds:
-    master: true
-    pullRequests: true
-    pullRequestsFromForks: true
-    addCheck: true
-    addComment: true
-    addBadge: true
-
 vscode:
   extensions:
     - DavidAnson.vscode-markdownlint
@@ -43,3 +34,4 @@ vscode:
     - ban.spellright
     - stripe.vscode-stripe
     - Prisma.prisma
+    - ms-dotnettools.vscode-dotnet-runtime
