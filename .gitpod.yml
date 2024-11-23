@@ -35,3 +35,4 @@ vscode:
     - stripe.vscode-stripe
     - Prisma.prisma
     - ms-dotnettools.vscode-dotnet-runtime
+    - gamunu.vscode-yarn
