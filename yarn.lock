@@ -2890,7 +2890,7 @@ __metadata:
     autoprefixer: ^10.4.19
     class-variance-authority: ^0.4.0
     clsx: ^2.0.0
-    dompurify: ^3.2.3
+    dompurify: ^3.3.2
     jest: ^29.7.0
     marked: ^15.0.3
     postcss: ^8.4.38
@@ -3374,11 +3374,11 @@ __metadata:
     "@calcom/ui": "workspace:*"
     bcryptjs: ^2.4.3
     dub: ^0.59.1
-    handlebars: ^4.7.7
+    handlebars: ^4.7.9
     jose: ^4.13.1
     lru-cache: ^9.0.3
     next-auth: ^4.22.1
-    nodemailer: ^6.7.8
+    nodemailer: ^8.0.4
     otplib: ^12.0.1
   languageName: unknown
   linkType: soft
@@ -3875,7 +3875,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@calcom/prisma@workspace:packages/prisma"
   dependencies:
-    "@calcom/lib": "workspace:*"
     "@prisma/adapter-pg": ^6.16.0
     "@prisma/client": ^6.16.0
     "@prisma/extension-accelerate": ^1.3.0
@@ -3884,6 +3883,7 @@ __metadata:
     prisma: ^6.16.0
     prisma-kysely: 2.2.0
     ts-node: ^10.9.1
+    uuid: ^8.3.2
     zod: ^3.22.4
     zod-prisma-types: ^3.2.4
   languageName: unknown
@@ -4338,14 +4338,14 @@ __metadata:
     classnames: ^2.3.1
     cron: ^3.1.7
     detect-port: ^1.3.0
-    dompurify: ^3.1.7
+    dompurify: ^3.3.2
     dotenv-cli: ^6.0.0
     entities: ^4.4.0
     env-cmd: ^10.1.0
     glob: ^10.3.10
     google-auth-library: ^9.15.0
     gray-matter: ^4.0.3
-    handlebars: ^4.7.7
+    handlebars: ^4.7.9
     ical.js: ^1.4.0
     ics: ^2.37.0
     isbot: ^5.1.30
@@ -4372,7 +4372,7 @@ __metadata:
     next-themes: ^0.2.0
     node-html-parser: ^6.1.10
     node-mocks-http: ^1.11.0
-    nodemailer: ^6.7.8
+    nodemailer: ^8.0.4
     nuqs: ^2.7.2
     openid-client: 6.5.0
     otplib: ^12.0.1
@@ -25345,22 +25345,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.1.7":
-  version: 3.1.7
-  resolution: "dompurify@npm:3.1.7"
-  checksum: 0a9b811bbc94f3dba60cf6486962362b0f1a5b4ab789f5e1cbd4749b6ba1a1fad190a677a962dc8850ce28764424765fe425e9d6508e4e93ba648ef15d54bc24
-  languageName: node
-  linkType: hard
-
-"dompurify@npm:^3.2.3":
-  version: 3.2.3
-  resolution: "dompurify@npm:3.2.3"
+"dompurify@npm:^3.3.2":
+  version: 3.3.3
+  resolution: "dompurify@npm:3.3.3"
   dependencies:
     "@types/trusted-types": ^2.0.7
   dependenciesMeta:
     "@types/trusted-types":
       optional: true
-  checksum: cd66ae8b22e1cfe5bc207b95fc119ce62f9a56eb313a9a1af6262d789d84e7bd27e29f26ed80110d108670dacb9527cb96ddf48a1da89126a37ec8b48702279a
+  checksum: 2ba5b40129259836f1e6c98e99d16608d34c7f4ad6ba457ac8c932f0e2c8e0e7c27561d25fcabf97e695eec57fd5eef1c065b324a542e5125631d4f768af2736
   languageName: node
   linkType: hard
 
@@ -30139,6 +30132,24 @@ __metadata:
   bin:
     handlebars: bin/handlebars
   checksum: 1e79a43f5e18d15742977cb987923eab3e2a8f44f2d9d340982bcb69e1735ed049226e534d7c1074eaddaf37e4fb4f471a8adb71cddd5bc8cf3f894241df5cee
+  languageName: node
+  linkType: hard
+
+"handlebars@npm:^4.7.9":
+  version: 4.7.9
+  resolution: "handlebars@npm:4.7.9"
+  dependencies:
+    minimist: ^1.2.5
+    neo-async: ^2.6.2
+    source-map: ^0.6.1
+    uglify-js: ^3.1.4
+    wordwrap: ^1.0.0
+  dependenciesMeta:
+    uglify-js:
+      optional: true
+  bin:
+    handlebars: bin/handlebars
+  checksum: ac39070fc1c3c76a654e4b526383eaf1601976eaa474547b263915b4806977f083600e586ca923709baeed7c82a42640bcc9cc04c37a7efd3fb444f49b8347d6
   languageName: node
   linkType: hard
 
@@ -37747,10 +37758,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemailer@npm:^6.7.8":
-  version: 6.7.8
-  resolution: "nodemailer@npm:6.7.8"
-  checksum: 92d4a1d48813825989c7f5fc7cbcf5ba8d1a8acf8e10e420b4aa7670ade7abd0c543cc6cf8adf14e44c62552e26efb37b2a15a9af90a515fa90b40ffc71c433e
+"nodemailer@npm:^8.0.4":
+  version: 8.0.4
+  resolution: "nodemailer@npm:8.0.4"
+  checksum: 5c038b8ac8154d12cc5de01a70489de6a05a80ef5576b1ced3ec17670dcf04f9d2cc81dd44c4e23e1d81c20c4b0a6b97cf45f32f52593e5125eb522e2bbdea21
   languageName: node
   linkType: hard
 
